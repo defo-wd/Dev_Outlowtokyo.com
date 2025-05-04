@@ -1,7 +1,8 @@
-# JDM Media Site
+# JDM Media OutlowTokyo.com
 
-JDM（Japanese Domestic Market）カルチャーに特化したネットメディアサイト。  
-写真、記事、動画を通じてJDMの魅力を国内外に発信します。
+JDMメディア　”OutlowTokyo”のWebサイト制作リポジトリ。
+ポートフォリオを兼ねるためPublicで作っていきます。
+個人製作の範疇なので細かいことは気にしないで、。
 
 ---
 
@@ -17,18 +18,17 @@ JDM（Japanese Domestic Market）カルチャーに特化したネットメデ�
 
 ---
 
-## 目的
-
-- JDM文化の発信（記事、写真、動画）
-- 投稿はメンバー・管理者のみ、閲覧・コメントは自由
-- 動的なUIと背景動画で視覚的に魅せるサイト構成
+## 機能要件
+- ネットメディアっぽい記事が投稿・閲覧できること
+- ログインを介さずコメントができること（掲示板形式）
+- 広告をつける前提でのUIデザイン
 
 ---
 
 ## 機能一覧
 
 ### コンテンツ表示
-- 記事一覧・詳細表示（Column / Spotlight / Feature）
+- 記事一覧・詳細表示（Column *textOnly / Spotlight *Text+Image / Feature *Text+Image+Clip）
 - ギャラリーページ（画像・動画のみ）
 
 ### 投稿・管理機能
